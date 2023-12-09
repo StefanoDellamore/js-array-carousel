@@ -15,25 +15,25 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
 }
-
 .card {
-    position: relative;
-    height: 300px;
-    width: 300px;
+    position: absolute;
+    top:50px;
+    right: 50px;
+    width: 50%;
+    height: 50%;
 }
 
 .card img {
     position: absolute;
-    background-size: cover;
+    display: block;
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
 button {
-    margin: 0 10px;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 20px;
 }
